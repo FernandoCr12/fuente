@@ -1,0 +1,116 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('FUENTE.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Estilos para el encabezado */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* Estilos para el encabezado */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+/* Estilos para el contenido principal */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.animated-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Estilos para el pie de página */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
